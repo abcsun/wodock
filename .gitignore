@@ -1,0 +1,6 @@
+/runtime/nginx/*
+/www
+/www-dev
+.env
+/jenkins/jenkins_home
+/nginx/sites/*.conf
