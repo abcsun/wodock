@@ -90,3 +90,13 @@ services:
       networks:
         - frontend
         - backend
+
+## Python ####################################################
+    # python:
+    #   build: ./python
+    #   volumes:
+    #     - ./www:/var/www
+    #   networks:
+    #     - frontend
+    #     - backend
+    #   tty: true
